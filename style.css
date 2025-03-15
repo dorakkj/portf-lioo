@@ -2,3 +2,11 @@
     margin: 0;
     padding: 10px;
 }
+header {
+    background-color: #FFF0F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 05px;
+    text-align: center;
+}
