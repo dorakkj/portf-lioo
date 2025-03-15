@@ -2,8 +2,116 @@
     margin: 0;
     padding: 10px;
 }
+
 header {
-    background-color: #FFF0F5;
+    background-color: #e4f0dd ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 05px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+section {
+
+    align-items:flex-start;
+    background-color:#e4f0dd;
+    color: black;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+div {
+    padding: 10px;
+}
+.img-agricultura{
+    width: 20%;
+}
+.img-Soja{
+    width: 20%;
+}
+.img-milho{
+    width: 20%;
+}
+
+.img-cana-de-açúcar{
+    width: 20%;
+}
+body{
+    text-align: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+}
+header{
+    display:flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-around;
+    background-color: #e4f0dd;
+    color: black;
+    position: relative;
+}
+
+ul li{
+    list-style: none;
+}
+
+.texto{
+    color: black;
+    background-color: #e2afd1;
+    border-radius: 15%;
+}
+
+a{
+    color:#e4f0dd;
+    text-decoration: none;
+}
+
+.lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #e2afd1;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.caixa:checked ~ .lista{
+    display: block;
+}
+
+#menu{
+    display: none;
+}
+
+.lista-item{
+    padding: 12px 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .lista{
+        right: 8%;
+        width: 14%;
+        padding: 20px;
+        text-align: start;
+    }
+    .lista-item:hover{
+        background-color:#e4f0dd;
+    }
+}
+footer{
+    background-color: #e4f0dd;
+    text-align: left;
 }
