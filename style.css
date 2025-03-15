@@ -10,3 +10,11 @@ header {
     padding: 05px;
     text-align: center;
 }
+section {
+
+    align-items:flex-start;
+    background-color: blanchedalmond;
+    color: dimgray;
+    margin: 10px 0;
+    padding: 10px 20px;
+}
