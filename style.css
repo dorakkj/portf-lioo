@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #F5A9BC	 ;
+    background-color: #FF4500	 ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +18,7 @@ header {
 section {
 
     align-items:flex-start;
-    background-color:#F6CED8	;
+    background-color:#F08080	;
     color: black;
     margin: 10px 0;
     padding: 10px 20px;
@@ -34,7 +34,7 @@ header{
     align-items: center;
     padding: 12px;
     justify-content: space-around;
-    background-color: #F6CED8	;
+    background-color: #F08080	;
     color: black;
     position: relative;
 }
@@ -45,7 +45,7 @@ ul li{
 
 .texto{
     color: black;
-    background-color: #F5A9BC;
+    background-color: #FF4500;
     border-radius: 15%;
 }
 
@@ -57,7 +57,7 @@ a{
     display: none;
     position: absolute;
     top: 100%;
-    background-color: #F5A9BC;
+    background-color: #FF4500;
     width: 100%;
     padding: 20px 0;
     text-align: center;
